@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "rXUtCs7napBzkt2c3O6neh7DlcaQ7Fp7YiDejiU3fopiTnt9nkSLf0uUMQF3CbIbp+6ICEh+ICkTgiznNg3N6Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Matias Gramkow\\Desktop\\Docker_vs_code_test\\unit-testing-using-dotnet-test\\PrimeService\\PrimeService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Matias Gramkow\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Matias Gramkow\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

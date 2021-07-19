@@ -1,0 +1,29 @@
+version: '3'
+services:
+  nginx:
+    depends_on:
+      - api
+    restart: always
+    build: 
+      dockerfile:  Dockerfile.dev
+      context: ./nginx
+    ports: 
+      - '4000:80'
+  api:
+    build:
+      dockerfile: Dockerfile
+      context: ./dockerapi
+  webapi:
+    build:
+      dockerfile: Dockerfile
+      context: ./webapi
+  vuedocker:
+    stdin_open: true
+    build:
+      dockerfile: Dockerfile.dev
+      context: ./vuedocker
+    volumes:
+      - /app/node_modules
+      - ./vuedocker:/app:cached
+    environment: 
+      - CHOKIDAR_USEPOLLING=true

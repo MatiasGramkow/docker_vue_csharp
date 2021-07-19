@@ -1,0 +1,1 @@
+docker build -t matiasgramkow23/dockervueclient ./vuedocker
