@@ -16,7 +16,7 @@ before_script:
   - docker build -t matiasgramkow23/unit-test-docker -f ./unit-testing-using-dotnet-test/Dockerfile ./unit-testing-using-dotnet-test
 
 script:
-  - ./scripts/test.sh
+  - ./scripts/dotnet-test.sh
 
 after_success:
   - ./scripts/after-success.sh
