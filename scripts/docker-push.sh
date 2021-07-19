@@ -1,0 +1,5 @@
+docker push matiasgramkow23/dockervueclient
+docker push matiasgramkow23/dockerapi
+docker push matiasgramkow23/dockernginx
+docker push matiasgramkow23/dockerunittestdotnet
+docker push matiasgramkow23/dockerwebapi

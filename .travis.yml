@@ -20,6 +20,8 @@ script:
 
 after_success:
   - ./scripts/after-success.sh
+  - ./scripts/docker-login.sh
+  - ./scripts/docker-push.sh
 
 notifications:
   email:
