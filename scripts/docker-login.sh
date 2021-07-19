@@ -1,1 +1,1 @@
-echo "$DOCKER_PASSWORD" | docker login -username "$DOCKER_ID" --password-stdin
+echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
