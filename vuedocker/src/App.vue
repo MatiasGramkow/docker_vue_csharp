@@ -1,7 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Hottest"/>
-  asd
+  <HelloWorld msg="NEW HEADLINE"/>
 </template>
 
 <script>
